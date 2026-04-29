@@ -1,0 +1,13 @@
+cat,3
+car,2
+card,1
+care,1
+case,1
+dog,2
+do,3
+dot,1
+dove,1
+rain,5
+rainbow,2
+road,1
+robot,1

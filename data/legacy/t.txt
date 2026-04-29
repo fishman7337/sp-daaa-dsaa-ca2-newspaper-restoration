@@ -1,0 +1,6 @@
+cat, 5
+cart, 4
+coat, 3
+cut, 2
+dog, 7
+door, 6
