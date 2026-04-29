@@ -19,12 +19,17 @@ FileManager
 ## Key Modules
 
 - `newspaper_restoration.trie` contains the `PrefixTrie` data structure and
-  single-character wildcard lookup.
+  single-character wildcard lookup. It re-exports `TrieNode` from
+  `newspaper_restoration.trie_node` for backwards-compatible imports.
 - `newspaper_restoration.text_processor` restores damaged words and files while
   preserving punctuation and whitespace.
 - `newspaper_restoration.trie_manager` loads, saves, and summarises trie data.
-- `newspaper_restoration.extra_features` contains advanced pattern search,
-  prefix/suffix batch editing, visualisation graph builders, and fuzzy search.
+- `newspaper_restoration.trie_pattern_resolver`,
+  `newspaper_restoration.trie_batch_editor`,
+  `newspaper_restoration.trie_visualizer`, and
+  `newspaper_restoration.fuzzy_searcher` contain the optional feature classes.
+- `newspaper_restoration.extra_features` is a compatibility export module for
+  those optional feature classes.
 - `newspaper_restoration.trie_processor` owns the interactive command panels.
 - `newspaper_restoration.console` contains user-facing menu rendering.
 
@@ -37,3 +42,5 @@ FileManager
 - File I/O is isolated in `FileManager` so tests can use temporary paths.
 - Plot drawing stays in the visualiser, while graph construction can be tested
   without opening windows.
+- Implementation files are kept to one class per file to make the CA2 codebase
+  easier to navigate during review.

@@ -3,16 +3,9 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Protocol
 
-WordFrequency = tuple[str, int]
-
-
-class DisplayableTrie(Protocol):
-    """Protocol for trie-like objects that can render themselves."""
-
-    def display_trie(self) -> str:
-        """Return a displayable trie dump."""
+from newspaper_restoration.displayable_trie import DisplayableTrie
+from newspaper_restoration.types import WordFrequency
 
 
 class FileManager:

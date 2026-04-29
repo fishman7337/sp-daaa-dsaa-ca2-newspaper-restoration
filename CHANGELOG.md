@@ -2,6 +2,13 @@
 
 All notable changes to this project should be documented here.
 
+## Unreleased
+
+- Added Goh Jenson to project attribution.
+- Changed licensing to the MIT License.
+- Split source implementation modules so each file defines at most one class.
+- Added README files for project folders.
+
 ## 0.1.0 - 2026-04-29
 
 - Renamed and documented the project as SP DSAA Newspaper Restoration.

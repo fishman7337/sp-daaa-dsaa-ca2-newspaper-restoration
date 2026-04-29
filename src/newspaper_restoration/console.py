@@ -14,7 +14,7 @@ class ConsoleUI:
         print("* {:<62}*".format("ST1507 DSAA: Newspaper Restoration with Tries"))
         print("*" + "-" * 63 + "*")
         print("*{:<63}*".format(""))
-        print("*    {:<58}*".format("- Done by: Goh Kun Ming, DAAA Student"))
+        print("*    {:<58}*".format("- Done by: Goh Kun Ming and Goh Jenson"))
         print("*    {:<58}*".format("- Singapore Polytechnic, School of Computing"))
         print("*    {:<58}*".format("- ST1507 Data Structures & Algorithm (AI), CA2"))
         print("*{:<63}*".format(""))

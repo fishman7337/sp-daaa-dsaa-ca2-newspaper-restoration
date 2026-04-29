@@ -8,7 +8,7 @@ This project was completed under:
 - Module: ST1507 Data Structure & Algorithm (AI).
 - Assessment: CA2.
 - Academic year: AY25/26 Year 2 Semester 1.
-- Student: Goh Kun Ming, DAAA.
+- Students/collaborators: Goh Kun Ming, DAAA, alongside Goh Jenson.
 - Lecturer: Liu Zheng.
 
 ## Project Summary

@@ -5,8 +5,8 @@ newspaper text where missing characters are represented by `*`.
 
 This project was completed under Singapore Polytechnic, School of Computing,
 Diploma in Applied AI & Analytics, module ST1507 Data Structure & Algorithm
-(AI), CA2, AY25/26 Year 2 Semester 1. Student: Goh Kun Ming, DAAA. Lecturer:
-Liu Zheng.
+(AI), CA2, AY25/26 Year 2 Semester 1. It was done alongside Goh Jenson by
+Goh Kun Ming, DAAA. Lecturer: Liu Zheng.
 
 ## Features
 
@@ -33,6 +33,10 @@ Liu Zheng.
 |-- docs/                        # Usage, design, data, and quality docs
 `-- .github/workflows/ci.yml     # Lint, test, and security CI
 ```
+
+Each source implementation module is kept to one class per file. Compatibility
+export modules such as `newspaper_restoration.trie` and
+`newspaper_restoration.extra_features` preserve concise imports.
 
 ## Quick Start
 
@@ -98,4 +102,4 @@ the trie.
 
 ## License
 
-This repository is coursework material. See [LICENSE](LICENSE) before reuse.
+This project is released under the MIT License. See [LICENSE](LICENSE).
