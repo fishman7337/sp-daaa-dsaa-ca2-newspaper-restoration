@@ -19,6 +19,7 @@ class TrieApp:
             processor: Business-logic command processor. A default processor
                 backed by a new ``PrefixTrie`` is created when one is not
                 provided.
+
         """
         self.ui = ui or ConsoleUI()
         self.processor = processor or TrieProcessor(PrefixTrie())

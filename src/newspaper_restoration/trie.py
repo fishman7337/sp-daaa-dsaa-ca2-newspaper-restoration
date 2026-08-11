@@ -32,6 +32,7 @@ class PrefixTrie:
 
         Raises:
             ValueError: If ``frequency`` is less than one.
+
         """
         if frequency < 1:
             raise ValueError("frequency must be at least 1")
@@ -57,6 +58,7 @@ class PrefixTrie:
 
         Returns:
             ``True`` when a word was removed; otherwise ``False``.
+
         """
         normalized = self._normalize(word)
         if not self.search_word(normalized):
@@ -93,6 +95,7 @@ class PrefixTrie:
         Returns:
             Matches sorted by descending frequency, then alphabetically for
             deterministic output.
+
         """
         normalized = self._normalize(pattern)
         if not normalized:

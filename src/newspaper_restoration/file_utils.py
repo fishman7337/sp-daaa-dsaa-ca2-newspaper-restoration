@@ -26,6 +26,7 @@ class FileManager:
 
         Returns:
             ``True`` when the file is written successfully.
+
         """
         return FileManager.write_text_file(filename, trie.display_trie())
 
@@ -67,6 +68,7 @@ class FileManager:
 
         Returns:
             File contents, or ``None`` when reading fails.
+
         """
         path = Path(filename)
         try:

@@ -13,6 +13,7 @@ class TrieNode:
         children: Mapping from the next character to a child node.
         is_end_of_word: Whether this node terminates a complete keyword.
         frequency: Keyword frequency when ``is_end_of_word`` is true.
+
     """
 
     children: dict[str, TrieNode] = field(default_factory=dict)

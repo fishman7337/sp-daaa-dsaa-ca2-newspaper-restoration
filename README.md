@@ -8,6 +8,15 @@ Diploma in Applied AI & Analytics, module ST1507 Data Structure & Algorithm
 (AI), CA2, AY25/26 Year 2 Semester 1. It was done alongside Goh Jenson by
 Goh Kun Ming, DAAA. Lecturer: Liu Zheng.
 
+## Evidence and interpretation
+
+| Evidence-backed measure | Current repository evidence |
+| --- | --- |
+| Search methods | Prefix tries, wildcard/best-match restoration, edit-distance fuzzy search, and graph visualisation are implemented. |
+| Interface | The maintained product is a layered interactive **command-line application**. |
+
+The qualitative outcome is an explainable text-restoration toolkit with several complementary search strategies. It is a CLI—not a GUI—and no restoration-accuracy or corpus-scale benchmark is claimed without a reproducible evaluation set.
+
 ## Features
 
 - Construct, edit, save, and load a prefix trie of keywords.
