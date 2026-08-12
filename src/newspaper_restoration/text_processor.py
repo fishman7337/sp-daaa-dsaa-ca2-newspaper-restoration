@@ -72,6 +72,7 @@ class TextProcessor:
 
         Returns:
             ``True`` when the file was read and written successfully.
+
         """
         content = FileManager.read_text_file(input_filename)
         if content is None:

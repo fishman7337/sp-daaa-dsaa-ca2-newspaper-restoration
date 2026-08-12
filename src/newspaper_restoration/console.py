@@ -28,6 +28,7 @@ class ConsoleUI:
         Returns:
             The selected menu number, or ``0`` when the input is not a valid
             integer.
+
         """
         print("\nPlease select your choice ('1','2','3','4','5','6','7'):")
         print("    1. Construct/Edit Trie")
